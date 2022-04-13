@@ -1,0 +1,14 @@
+public class Main {
+	public static void main(String[] args) {
+	
+			int height =178;  
+            int age=21;    
+     
+    if(age>=18)
+       {    
+        if(height>165)
+        {  
+            System.out.println("You are tall");  
+        }    
+    }    
+	}
