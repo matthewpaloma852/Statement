@@ -1,0 +1,113 @@
+public class SwitchCase {
+	public static void main(String[] args) {
+	
+			int grade =70 ;
+System.out.println("Example Number 1");
+    switch (grade) {
+
+      case 99:
+
+        System.out.println("Awesome");
+
+        break;
+
+      case 95:
+
+        System.out.println("Excellent");
+
+        break;
+
+      case 90:
+
+        System.out.println("Very Good");
+
+        break;
+
+      case 85:
+
+        System.out.println("Good");
+
+        break;
+
+      case 80:
+
+        System.out.println("Great");
+
+        break;
+
+      case 75:
+
+        System.out.println("Not Bad");
+
+        break;
+       
+       case 70:
+        
+        System.out.println("Better Luck Next Time\n");
+
+        break;
+
+     default: System.out.println("error");
+
+}
+
+        int age =41 ;
+       System.out.println("Example Number 2");
+    switch (age) {
+
+     case 5:
+     case 6:
+     case 7:
+     case 8:
+     case 9:
+     case 10:
+
+        System.out.println("You're a Kid");
+
+        break;
+
+      case 12:
+      case 13:
+      case 14:
+      case 15:
+      case 16:
+      case 17:
+
+        System.out.println("You're not an Adult");
+
+        break;
+
+      case 18:
+      case 19:
+      case 20:
+      case 21:
+      case 22:
+      case 23:
+      case 24:
+      case 25:
+
+        System.out.println("You're Adult");
+
+        break;
+        
+        case 40:
+        case 41:
+        case 42:
+        case 43:
+        case 44:
+        case 45:
+        System.out.println("You're Not a Senior");
+
+        break;
+
+      case 85:
+
+        System.out.println("You are Senior");
+
+        break;
+
+     default: System.out.println("Enter Valid Age");
+
+}
+	}
+}
