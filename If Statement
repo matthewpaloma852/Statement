@@ -1,0 +1,17 @@
+public class IfStatement{
+	public static void main(String[] args) {
+		int a = 10;
+        if (a < 15){
+        System.out.println("Example Number 1");
+        System.out.println("10 is less than 15\n");
+        }
+        //Example 2
+        System.out.println("Example Number 2");
+        a = 5;
+        if(a == 5){
+        a++;
+        
+        System.out.println("a = " + a);    
+        }
+	}
+}
